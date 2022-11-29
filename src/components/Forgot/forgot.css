@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Forgot{
+    background-color: white;
+    width: 20em;
+    height: 25em;
+    position: relative;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Forgot h1{
+    margin: 0.5em;
+    color: #374BFF;
+    font-size: 2em;
+}
+.fro-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+.for-go{
+    margin: 0.5em;
+}
+.for-go label{
+    font-size: 1.2em;
+}
+.for-go input{
+    margin-top: 0.2em;
+}
+.for-go span{
+    margin: -2em;
+    cursor: pointer;
+}
+.fro-email input{
+    width: 20em;
+    height: 2.5em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    border: solid 0.1em;
+    padding-left: 0.5em;
+}
+.reset{
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset button{
+    width: 20em;
+    height: 2.5em;
+    border-radius: 0.5em;
+
+    font-size: 1em;
+    border: solid 0.1em;
+    background-color: #6C7BFF;
+    color: white;
+    cursor: pointer;
+}
+.back-login{
+   margin-top: 1.2em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
