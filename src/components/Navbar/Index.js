@@ -26,16 +26,16 @@ function Index({toggle}) {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="/About">About</NavLinks>
+              <NavLinks to="../about">About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/Hackathons">Hackathons</NavLinks>
+              <NavLinks to="../hackathon">Hackathons</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/Intenships">Intenships</NavLinks>
+              <NavLinks to="../internship">Intenships</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="/Scholarships">Scholarships</NavLinks>
+              <NavLinks to="../scholarship">Scholarships</NavLinks>
             </NavItem>
             <NavBtn>
               <NavBtnLink to="/signUp">Signup</NavBtnLink>
