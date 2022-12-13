@@ -6,6 +6,9 @@ import logo from "../../assets/logo.png";
 import Navbar from "../Navbar/Index";
 import Sidebar from "../Sidebar/Index";
 
+import Slider from "../Slider/Slider";
+import Card  from "../card/Card";
+
 const Home = () => {
   //   const [userName,getUserName]=useState([]);
 
@@ -21,6 +24,9 @@ const Home = () => {
     <div className="home">
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <Slider />
+      <Card />
+      
     </div>
   );
 };
