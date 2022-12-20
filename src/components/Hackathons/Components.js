@@ -58,11 +58,11 @@ const Components = ({ placeholder, data }) => {
             </div >
             <div className="demo">
                 <div className="demo1">
-                    <div class="card demo3">
-                        <img class="card-img-top cimg" src="https://picsum.photos/200/303" alt="Card image cap" />
-                        <div class="card-body cb">
-                            <h5 class="card-title logo">LunarHacks<p className="fav"><FavoriteIcon /></p></h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div className="card demo3">
+                        <img className="card-img-top cimg" src="https://picsum.photos/200/303" alt="Card image cap" />
+                        <div className="card-body cb">
+                            <h5 className="card-title logo">LunarHacks<p className="fav"><FavoriteIcon /></p></h5>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <pre><p className="duration"><AvTimerIcon /> 2 days left to register</p>
                                 <p className="standard"><ClassIcon /> Btech students</p>
                             </pre>
@@ -70,11 +70,11 @@ const Components = ({ placeholder, data }) => {
                     </div>
                 </div>
                 <div className="demo2">
-                    <div class="card">
-                        <img class="card-img-top cimg" src="https://picsum.photos/210/303" alt="Card image cap" />
-                        <div class="card-body cb">
-                            <h5 class="card-title logo">LunarHacks<p className="fav"><FavoriteIcon /></p></h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div className="card">
+                        <img className="card-img-top cimg" src="https://picsum.photos/210/303" alt="Card image cap" />
+                        <div className="card-body cb">
+                            <h5 className="card-title logo">LunarHacks<p className="fav"><FavoriteIcon /></p></h5>
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <pre><p className="duration"><AvTimerIcon /> 2 days left to register</p>
                                 <p className="standard"><ClassIcon /> Btech students</p>
                             </pre>
