@@ -15,8 +15,17 @@
     
 }
 
+button{
+    width: 20em;
+    height: 2.5em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #6C7BFF;
+    color: white;
+    cursor: pointer;
+}
 .cover
-
 {
     background-color: white;
     width: 20em;

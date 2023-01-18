@@ -83,10 +83,8 @@ const SingUp = () => {
   };
 
   return (
-    <div className="page">
-       <div className="logo_img">
-      <img className="logo" src={logo} alt="logo"></img>
-      </div>
+    <div className="signup_page">
+     
       <div className="sSvg">
         <img className="signSvg" src={signupSVG} alt="Signup svg image"></img>
       </div>
@@ -189,7 +187,7 @@ const SingUp = () => {
         />
         {/* Same as */}
         <ToastContainer />
-        <p>
+        <p className="existing_acount">
           Already have an account ?
           <Link to="/Login" style={{ textDecoration: "none" }}>
             <span>Login</span>

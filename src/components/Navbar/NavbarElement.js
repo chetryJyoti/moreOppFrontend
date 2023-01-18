@@ -36,7 +36,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left:14px;
+    /* margin-left:14px; */
     font-weight: bold;
     text-decoration: none;
 `
@@ -94,10 +94,11 @@ export const NavBtn = styled.nav`
 `
 export const NavBtnLink = styled(LinkR)`
     border-radius: 10px;
-    background-color:#4D9ACE;
+    /* background-color:#4D9ACE; */
+    background: #374BFF;
+    color: #fff;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
     font-size: 16px;
     outline: none;
     border: none;
@@ -107,7 +108,7 @@ export const NavBtnLink = styled(LinkR)`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: #374BFF;
-        color: #fff;
+        background: #009EFF;
+        color:#fff;
     }
 `

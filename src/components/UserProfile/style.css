@@ -1,0 +1,17 @@
+.userProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.userProfile h3{
+    margin-bottom:1rem;
+}
+.userProfile img{
+    height: 200px;
+    width: 200px;
+}
+.userContent{
+    text-align: center;
+    /* align-items: center; */
+}

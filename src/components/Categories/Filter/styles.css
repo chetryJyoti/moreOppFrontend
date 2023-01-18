@@ -1,0 +1,23 @@
+h1{
+    /* margin: .8rem; */
+}
+.label{
+    /* margin: .8rem; */
+    font-weight: 600;
+}
+.input-group{
+    padding:2rem;
+    margin-bottom: 2rem;
+    display: inline;
+   
+}
+.filter_toggle{
+    margin: 1rem;
+}
+.filter_toggle-check{
+    /* margin-left:1.5rem; */
+}
+.filter_toggle-slider{
+    margin:0 2rem;
+    margin-top: 2rem;
+}

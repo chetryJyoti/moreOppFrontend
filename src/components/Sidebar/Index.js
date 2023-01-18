@@ -18,9 +18,9 @@ function Index({isOpen,toggle}) {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="/about">About</SidebarLink>
-          <SidebarLink to="/Hackathons">Hackathons</SidebarLink>
-          <SidebarLink to="/Internships">Internships</SidebarLink>
-          <SidebarLink to="/Scholarships">Scholarships</SidebarLink>
+          <SidebarLink to="/hackathon">Hackathons</SidebarLink>
+          <SidebarLink to="/internship">Internships</SidebarLink>
+          <SidebarLink to="/scholarship">Scholarships</SidebarLink>
           <SidebarLink to="/signUp">SignUp</SidebarLink>
         </SidebarMenu>
         <SidebtnWrap>

@@ -106,9 +106,6 @@ const Login = () => {
 
   return (
     <div className="page">
-       <div className="logo_img">
-      <img className="logo" src={logo} alt="logo"></img>
-      </div>
       <img className="loginSvg" src={loginSvg} alt="Signup svg image"></img>
       <div className="cover">
         <div className="Login">
@@ -149,11 +146,11 @@ const Login = () => {
             <span className="line">Sign Up</span>
           </Link>
         </p>
-        <div className="Home1">
+        {/* <div className="Home1">
           <Link to={"/"}>
             <h2>Back to Home</h2>
           </Link>
-        </div>
+        </div> */}
       </div>
       <ToastContainer
         position="top-right"

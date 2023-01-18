@@ -4,35 +4,31 @@
     padding: 0;
     font-family: "poppins";
 }
-.page{
+.signup_page{
+    margin-left:9rem;
     height: 100vh;
-    width: 100%;
     display: flex; 
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;  
  } 
- h1{
-    text-align: center;
+.signup_page  h1{
+   
     margin: 0.5em;
     color: #374BFF;
     letter-spacing: 0.1em;
     font-size: 2.5em;
  }
-.container{
+.signup_page .container{
     background-color: white;
-    /* position: absolute; */
     border-radius: 1em; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
  } 
-.cont3{
+.signup_page .cont3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0.5em;
 }
-.cont3 input{
+.signup_page .cont3 input{
     width: 20em;
     height: 2.5em;
     font-size: 1em;
@@ -41,13 +37,13 @@
     padding-left: 0.5em;
     margin-top: 0.2em;
 }
-.cont4{
+.signup_page .cont4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 9px;
 }
-button{
+.signup_page button{
     width: 20em;
     height: 2.5em;
     font-size: 1em;
@@ -57,34 +53,22 @@ button{
     color: white;
     cursor: pointer;
 }
-.cont3 label{
+.signup_page .cont3 label{
     font-size: 1em;
 }
 
-.sSvg{
-    width: 40%; 
+.signup_page .sSvg{
+    width: 80%; 
     align-items: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.signSvg{
-    /* border: 1px solid rebeccapurple; */
+.signup_page .signSvg{
     height: 80vh;
-    width: 70vh;
+    width: 70%;
   
 }
-
-
-.logo_img{
-    /* border: 1px solid red; */
-    position: fixed;
-    margin: 10px 15px 15px 10px;
-    left: 0;
-    top: 0;
-    display:inline;
-}
-
-.logo{
-    width: 330px;
-    height: 110px;
+.existing_acount{
+    margin-left: 3rem;
 }
