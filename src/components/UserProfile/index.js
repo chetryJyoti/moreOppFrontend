@@ -32,20 +32,111 @@ const Index = () => {
   return (
     <>
       <Navbar />
-      <div className="userProfile">
-        <div>
-         <div className="userContent">
-         <h3>Hello, {userDetail.username}</h3>
+      <div className="profile_main">
+        <div className="pic">
           <img
+            className="pic_img"
             src="https://xsgames.co/randomusers/avatar.php?g=male"
             alt="dummy user"
           ></img>
-          <p>FirstName: {userDetail.firstName}</p>
-          <p>Lastname:{userDetail.lastName}</p>
-          <p>Email:{userDetail.email}</p>
-          {/* <p>Authority:{userDetail.authorities[0].authority}</p> */}
-         </div>
-          <button onClick={() => loginPage()}>Logout</button>
+          <div className="pic_name">
+            <h3>{userDetail.username}</h3>
+            <div className="pic_userEmail">
+              <p>
+                {userDetail.firstName} {userDetail.lastName}
+              </p>
+              <p>{userDetail.email}</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="edu">
+          <div className="edu_boundary">
+            <div className="edu_heading">
+              <h4>Education:</h4>
+              <div className="edu_add">
+                <span>+</span>
+              </div>
+            </div>
+            <div className="edu_content">
+              <ul>
+                <li>Jorhat Engineering College</li>
+                <li>Rd Junior College</li>
+                <li>Rd English Academy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="edu">
+          <div className="edu_boundary">
+            <div className="edu_heading">
+              <h4>Skills:</h4>
+              <div className="edu_add">
+                <span>+</span>
+              </div>
+            </div>
+            <div className="edu_content">
+              <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SpringBoot</li>
+                <li>React js</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="edu">
+          <div className="edu_boundary">
+            <div className="edu_heading">
+              <h4>Experience:</h4>
+              <div className="edu_add">
+                <span>+</span>
+              </div>
+            </div>
+            <div className="edu_content">
+              <ul>
+                <li>Intern at Automovill Technologies Pvt Ltd </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="edu">
+          <div className="edu_boundary">
+            <div className="edu_heading">
+              <h4>Projects:</h4>
+              <div className="edu_add">
+                <span>+</span>
+              </div>
+            </div>
+            <div className="edu_content">
+              <ol>
+                <li>Opportunity finder website</li>
+                <li>Task management webpage using MERN</li>
+                <li>Flutter ticket booking app</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div className="edu">
+          <div className="edu_boundary">
+            <div className="edu_heading">
+              <h4>Certifications:</h4>
+              <div className="edu_add">
+                <span>+</span>
+              </div>
+            </div>
+            <div className="edu_content">
+              <ol>
+                <li>Into to python programming issued by udemy</li>
+                <li>Data Analytics using Python issued by Coursera</li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -1,17 +1,48 @@
-.userProfile{
+
+
+.profile_main{
+    /* border: 1px solid red; */
+    margin: 0 40px;
+}
+.pic{
+    /* border: 2px solid green; */
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    align-items: center;
 }
-.userProfile h3{
-    margin-bottom:1rem;
+.pic_img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
 }
-.userProfile img{
-    height: 200px;
-    width: 200px;
+.pic_name{
+    margin-left: 14px;
 }
-.userContent{
-    text-align: center;
-    /* align-items: center; */
+
+.pic_userEmail{
+    /* border: 1px solid red; */
+    line-height: 10px;
+}
+
+.edu{
+    margin: 20px 0;
+}
+.edu_boundary{
+    border: 1px solid black;
+    border-radius: 6px;
+   
+}
+.edu_heading{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+.edu_add{
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+.edu_content{
+    margin-top: 6px;
 }
