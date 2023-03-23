@@ -6,7 +6,7 @@ import Filter from "../../components/Categories/Filter";
 import List from "../../components/Categories/List";
 import EmptyView from "../../components/common/EmptyView";
 
-const HACKATHON_URL = "http://localhost:8090/hackathons/";
+const Internship_URL = "http://localhost:8090/internships/";
 const Internship = () => {
     //for getting the data and storing it
   const [data, setData] = useState([]);
@@ -15,7 +15,7 @@ const Internship = () => {
 
   const fetchHackathonsData = () => {
     axios
-      .get(HACKATHON_URL, {
+      .get(Internship_URL, {
         headers: {
           Authorization: `Bearer ${
             localStorage.getItem("token")
@@ -27,7 +27,7 @@ const Internship = () => {
       .then((response) => {
         setData(response.data);
         setSearchedApiData(response.data);
-        console.log("hackathons:", response.data);
+        console.log("internships:", response.data);
       });
   };
     //for filters
